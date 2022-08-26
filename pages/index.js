@@ -1,8 +1,11 @@
 import styles from "../styles/Home.module.css"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faBars } from "@fortawesome/free-solid-svg-icons"
+
 import { useMoralisQuery, useMoralis } from "react-moralis"
 import NftBox from "../components/NftBox"
 import { useState, useEffect } from "react"
-import { useQuery, gql } from "@apollo/client"
+import { useQuery } from "@apollo/client"
 import contractAddresses from "../constants/contractAddresses.json"
 import { GET_ACTIVE_ITEMS } from "../constants/subGraphQueries"
 
@@ -51,7 +54,10 @@ export default function Home() {
             ) : (
                 <div className={styles.notWeb3}>
                     <div>Web3 not enabled.</div>
-                    <div>Connect your wallet!</div>
+                    <div>Connect your wallet! </div>
+                    <span className={styles.notWeb3span}>
+                        <FontAwesomeIcon icon={faBars} />
+                    </span>
                 </div>
             )}
         </div>

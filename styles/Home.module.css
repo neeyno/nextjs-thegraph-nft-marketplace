@@ -25,6 +25,12 @@
   text-align: center;
 }
 
+.notWeb3span {
+  position: inherit;
+  height: 20px;
+  width: 20px;
+}
+
 #upd-input {
   background-color: #22262b;
 }

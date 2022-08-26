@@ -1,6 +1,6 @@
-import { useEffect, useState } from "react"
-import { useWeb3Contract, useMoralis } from "react-moralis"
-import { ethers } from "ethers"
+//import { useEffect, useState } from "react"
+//import { useWeb3Contract, useMoralis } from "react-moralis"
+//import { ethers } from "ethers"
 
 import styles from "../styles/Buy.module.css"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"

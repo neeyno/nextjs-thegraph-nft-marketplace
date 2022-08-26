@@ -1,6 +1,6 @@
 import { ConnectButton } from "web3uikit"
-import { useMoralis } from "react-moralis"
-import { useEffect, useState } from "react"
+//import { useMoralis } from "react-moralis"
+import { useState } from "react"
 import Link from "next/link"
 import styles from "../styles/Header.module.css"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
@@ -19,7 +19,7 @@ export default function Header() {
                 <Link href="/">
                     <a className={styles.home}>Marketplace</a>
                 </Link>
-                <Link href="/sell">
+                <Link href="/sell.html">
                     <a className={styles.sell}>Sell NFT</a>
                 </Link>
                 <div className={styles.connect}>
@@ -43,7 +43,7 @@ export default function Header() {
                                 </span>
                             </a>
                         </Link>
-                        <Link href="/sell">
+                        <Link href="/sell.html">
                             <a className={styles.sell_m}>
                                 Sell NFT
                                 <span>

@@ -112,7 +112,7 @@ export default function NftBox({ price, nftAddress, tokenId, marketplaceAddress,
     //
     async function updateUI() {
         const tokenURI = await getTokenURI()
-        console.log(`TokenURI: ${tokenURI}`)
+        //console.log(`TokenURI: ${tokenURI}`)
         if (tokenURI) {
             // IPFS gateway
             const requsetURL = tokenURI.replace("ipfs://", "https://ipfs.io/ipfs/")

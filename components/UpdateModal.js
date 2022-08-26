@@ -1,5 +1,5 @@
-import { useEffect, useState } from "react"
-import { useWeb3Contract, useMoralis } from "react-moralis"
+//import { useEffect, useState } from "react"
+//import { useWeb3Contract, useMoralis } from "react-moralis"
 import { ethers } from "ethers"
 
 import styles from "../styles/Update.module.css"

@@ -10,7 +10,7 @@
     <strong>| Explore Frontend |</strong>
     </a>
     <br />
-    <a  href="https://github.com" target="_blank"><strong>| View DEMO |</strong></a>
+    <a  href="https://plain-frost-3087.on.fleek.co/" target="_blank"><strong>| View DEMO |</strong></a>
  </p>
 </div>
 <hr>
@@ -24,7 +24,7 @@ The application allows users to list, buy, and sell NFTs by connecting to their 
 
 * Sell page enables users to list their NFT on the market and withdraw the proceeds from NFTs that have been sold.
 
-The listed NFTs are derived from events data that is indexed by The graph. The Graph is an indexing protocol for querying networks like Ethereum and IPFS.
+The listed NFTs are derived from events data that is indexed by The Graph. The Graph is an indexing protocol for querying networks like Ethereum and IPFS.
 
 <hr>
 
